@@ -1,4 +1,4 @@
-# Sentiment Analysis and Topic Modeling Product Reviews
+<PLACHOLDER> # Sentiment Analysis and Topic Modeling Product Reviews
 
 <b>Project Introduction:</b> This project aims to build a basic sentiment analysis functionality to ascertain whether product reviews are positive or negative. Time permitting, this project also has a secondary goal: to analyze the negative reviews for a subset of the products (in particular, Apple iphones) to assess if we can determine any themes or common topics emerging.
 
