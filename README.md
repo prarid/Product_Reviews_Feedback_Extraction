@@ -10,7 +10,7 @@
 
 The dataset is an extract of ~400K reviews of various various products (predominantely electronics) from Amazon. This project is executed in Python, using predominantly the nltk/spacy and sklearn libraries. 
 
-<b>Dataset and Technology:</b>  PLACEHOLDER
+<b>Key Findings:</b>  PLACEHOLDER
 
 ###
 #### Development Timeline
