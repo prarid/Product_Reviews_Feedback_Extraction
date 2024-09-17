@@ -16,5 +16,5 @@ The dataset is an extract of ~400K reviews of various various products (predomin
 #### Development Timeline
 |Phase|Timeline| Decription |
 |:---:|:---:|:---|
-|P1 |Jul 2024|Initial Version: Focus is sentiment analysis using standard machine learning classification techniques. |
-|P2|Aug - Sept 2024|Topic modeling for negative reviews on a subset of products|
+|P1 |Jul 2024|Initial Version: Focus is sentiment analysis using standard machine learning classification techniques|
+|P2|Aug - Sept 2024|Topic modeling for negative reviews on a subset of products using Non Negative Matrix Factorization and Latent Dirichlet Allocation|
