@@ -1,4 +1,4 @@
-# PLACEHOLDER - Feedback Extraction from Product Reviews
+# Feedback Extraction from Product Reviews
 
 <b>Project Introduction:</b> This project aims to identify and extract tangible feedback from product reviews posted on Amazon. This is accomplished in two stages: in the first stage a sentiment analysis is utilized to ascertain whether product reviews are positive or negative. In the second stage, reviews identified as "negative sentiment" are analyzed to assess if we can determine any themes or common topics emerging.
 
