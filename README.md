@@ -26,6 +26,10 @@ Issues primarily appear to be related to
 2. <b>battery life</b> (batter does not hold charge).
 3. to a smaller extent some reviews mention <b>camera and iOS software isues</b> as well
 
+<p align="center">
+  <img src= "Support/NMF_all.PNG" width="70%" height="70%">
+</p>
+
 Note this is an academic dataset (repurposed from a UMich Course) so the data is quite dated and also the amount of data available for topic modeling is quite small, which impacts the quality of the results
 
 
