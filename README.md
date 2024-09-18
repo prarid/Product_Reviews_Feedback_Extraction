@@ -22,9 +22,9 @@ Comparative AUC and F1 scores for all the options considered for the sentiment a
 Topic modeling aims to create coherent groupings of words to glean common themes ("topics") from the text corpus. Non-negative Matrix Factorization and Latent Dirichlet Allocation are utilized to explored project reviews for a subset of the products (in particular, Apple iphones). 
 
 Issues primarily appear to be related to 
-1. the screen (touch screen stops working, or screen cracks);
-2. battery life (batter does not hold charge).
-3. tso a smaller extent some reviews mention camera and iOS software isues as well
+1. <b>the screen</b> (touch screen stops working, or screen cracks);
+2. <b>battery life</b> (batter does not hold charge).
+3. to a smaller extent some reviews mention <b>camera and iOS software isues</b> as well
 
 Note this is an academic dataset (repurposed from a UMich Course) so the data is quite dated and also the amount of data available for topic modeling is quite small, which impacts the quality of the results
 
