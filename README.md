@@ -1,6 +1,6 @@
 # Feedback Extraction from Product Reviews
 
-This project aims to identify and extract tangible feedback from product reviews posted on Amazon. This is accomplished in two stages: in the first stage a sentiment analysis is utilized to ascertain whether product reviews are positive or negative. In the second stage, reviews identified as "negative sentiment" are analyzed to assess if we can determine any themes or common topics emerging.
+This project aims to identify and extract tangible feedback from product reviews posted on Amazon. This is accomplished in two stages: in the first stage a sentiment analysis is utilized to ascertain whether product reviews are positive or negative. In the second stage, reviews identified as "negative sentiment" are analyzed to assess if we can determine any themes or common topics emerging. The dataset is an extract of ~400K reviews of various various products (predominantely electronics) from Amazon. This project is executed in Python, using predominantly the nltk/spacy and sklearn libraries. 
 
 ### What is sentiment analysis?
 Sentiment analysis is a growing genre of text analysis that aims to assess the tone or emotion, a.k.a sentiment, associated with text. It gained a lot of mainstream attention in 2020, when stock analysts were especially interested in mining posts from popular subreddits such as r/wallstreetbets to try ascertain the retail investor sentiments about meme stocks via their posts, as thus, predict their potential trading actions. 
@@ -21,11 +21,13 @@ Comparative AUC and F1 scores for all the options considered for the sentiment a
 ### What is topic modeling?
 Topic modeling aims to create coherent groupings of words to glean common themes ("topics") from the text corpus. Non-negative Matrix Factorization and Latent Dirichlet Allocation are utilized to explored project reviews for a subset of the products (in particular, Apple iphones). 
 
-Issues primarily appear to be related to the screen (touch screen stops working, or screen cracks) and battery life (batter does not hold charge). To a smaller extent some revies mention camera and iOS software isues as well
+Issues primarily appear to be related to 
+1. the screen (touch screen stops working, or screen cracks);
+2. battery life (batter does not hold charge).
+3. tso a smaller extent some reviews mention camera and iOS software isues as well
 
-<b>Dataset and Technology:</b> 
+Note this is an academic dataset (repurposed from a UMich Course) so the data is quite dated and also the amount of data available for topic modeling is quite small, which impacts the quality of the results
 
-The dataset is an extract of ~400K reviews of various various products (predominantely electronics) from Amazon. This project is executed in Python, using predominantly the nltk/spacy and sklearn libraries.
 
 ###
 #### Development Timeline
