@@ -4,7 +4,18 @@
 
 <b>What is sentiment analysis?</b> Sentiment analysis is a growing genre of text analysis that aims to assess the tone or emotion, a.k.a sentiment, associated with text. It gained a lot of mainstream attention in 2020, when stock analysts were especially interested in mining posts from popular subreddits such as r/wallstreetbets to try ascertain the retail investor sentiments about meme stocks via their posts, as thus, predict their potential trading actions. 
 
-While main state of the art packages exist for sentiment analysis today, this project is a means to gain experience in more traditional sklearn based techniques and so more complex libraries are not explored here. Two vectorizers - CountVectorizer and TfidfVectorizer and three sklearn models - multinomial naivebaiyes, logistic regression and random forest classifiers, are explored. Gridsearch based parameter tuning is performed to determine the optimal number of features and other parameters for the vectorizers and each of the models.
+This is an introductory project and as such, focuses on more traditional machine learning/sklearn based techniques for sentiment analysis. Two vectorizers - CountVectorizer and TfidfVectorizer and three sklearn models - multinomial naivebaiyes, logistic regression and random forest classifiers, are explored. Gridsearch based parameter tuning is performed to determine the optimal number of features and other parameters for the vectorizers and each of the models. Based on this analysis, <b>a Countvectorizer with the following parameters, and Logistic Regression are chosen for the sentiment analysis final model</b>. 
+   * min_df = 5 (must appear in atleast 5 documents)
+   * max_df = 0.75 (must not appear is more than 0.75 documents
+   * max_features = 10000
+   * bigrams
+
+Today, many state of the art packages exist which essential allow for plug and play sentiment analysis without the need to model training; as a tangential goal, two such popular packages, <b>TextBlob and VADER</b> are briefly explored in this project. TextBlob is a pretrained package that provides polarity scores which can be used for sentiment analysis; in this project, any polarities <0 are considered negative sentiment and others are considered positive sentiment. Similarly VADER is also a pretrained package that provides a "compound score" that can be used to determine sentiment. Both these models performed quite well especially if we consider that these can be used without the need for additional training and with potentially unsupervised data
+
+Comparative AUC and F1 scores for all the options considered for the sentiment analyzer are shown below:
+<p align="center">
+  <img src= "Support/Summ_Results.PNG" width="30%" height="30%">
+</p>
 
 <b>What is topic modeling?</b> Topic modeling aims to create coherent groupings of words to glean common themes ("topics") from the text corpus. Non-negative Matrix Factorization and Latent Dirichlet Allocation are utilized to explored project reviews for a subset of the products (in particular, Apple iphones).
 
